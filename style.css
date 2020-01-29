@@ -4,7 +4,7 @@
 }
 
 body{
-    overflow: hidden;
+    /* overflow: hidden; */
     font-family: 'Lato', sans-serif;
 }
 
@@ -111,13 +111,13 @@ body{
   @media screen and (max-width: 900px) {
     
 
+   
+
     .grid-container{
         display: block;
   }
 
-  .left p, .right p, .middle p, .bottom p {
-    font-size: 1rem;
-}
+ 
 
   .middle{
     position: relative;
@@ -143,26 +143,29 @@ body{
        margin-left: 4%;
        margin-right: 4%;
        margin-top: 5%;
+       font-size: 1.5rem;
    }
    .right{
        width: 100%;
-       padding-top: 5%;
-        padding-bottom: 27%;
+       padding-top: 2%;
+        padding-bottom: 30%;
        height: auto;
+       
    }
 
    .right p{
        margin-top: 5%;
-       padding-top: 10%;
-       padding-bottom: 20px;
+      
        margin-left: 20px;
        margin-right: 20px;
+       font-size: 1.5rem;
    }
 
    .bottom{
        padding-top: 10px;
+       padding-bottom: 30px;
        width: 100%;
-       position: absolute;
+       position: relative;
        left: 0;
        bottom: 0;
        height: 100px;

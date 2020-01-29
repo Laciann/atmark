@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow: hidden;
+    font-family: 'Lato', sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "left right" 
+                         "bottom bottom";
+  }
+  
+  .left { grid-area: left; }
+  
+  .right { grid-area: right; }
+  
+  .bottom { grid-area: bottom; }
+
+  .left{
+      height: 80vh;
+      background-color: #030303;
+  }
+
+  .right{
+    height: 80vh;
+    background-color:#0a0a0a;
+}
+
+.bottom{
+    height: 20vh;
+    background-color: #0f0f0f;
+}
+
+.middle{
+ position: absolute;
+ top: 20%;
+ left: 40%;
+ width: 20%;
+ background-color: #0f0f0f;
+ padding: 20px;
+
+}
+
+.left p{
+    margin-left: 80px;
+    margin-right: 200px;
+    margin-top: 25%;
+    color: white;
+    font-size: 2rem;
+}
+
+.right p{
+        margin-left: 240px;
+        margin-right: 80px;
+        margin-top: 25%;
+        color: white;
+        font-size: 2rem;
+    }
+    
+
+.middle p{
+    color:rgb(65, 3, 11);
+    font-size: 2rem;
+}
+
+.middle p span{
+    font-size: 3rem;
+    color:rgb(145, 7, 25);
+}
+
+.bottom p{
+    margin-left: 80px;
+    margin-top: 3%;
+    color: white;
+    font-size: 2rem;
+}
+
+.bottom p span{
+    color: rgb(145, 7, 25);
+}
+
+.bottom a{
+    display: inline-block;
+    margin-left: 80px;
+}

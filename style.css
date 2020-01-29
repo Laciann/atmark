@@ -65,13 +65,13 @@ body{
     
 
 .middle p{
-    color:rgb(65, 3, 11);
+    color:rgb(156, 26, 44);
     font-size: 2rem;
 }
 
 .middle p span{
     font-size: 3rem;
-    color:rgb(145, 7, 25);
+    color:rgb(194, 11, 36);;
 }
 
 .bottom p{
@@ -82,7 +82,7 @@ body{
 }
 
 .bottom p span{
-    color: rgb(145, 7, 25);
+    color: rgb(214, 0, 29);
 }
 
 .bottom a{
